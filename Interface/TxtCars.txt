@@ -1,0 +1,3 @@
+Marca:Opel Model:Corsa
+Marca:Opel Model:Astra
+Marca:Opel Model:Vectra
