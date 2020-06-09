@@ -18,7 +18,7 @@ namespace Interface
             Console.WriteLine("1. Read .txt file");
             Console.WriteLine("2. Read .xml file");
 
-            Console.WriteLine("Your option is: ");
+            Console.Write("Your option is: ");
             option = Console.ReadLine();
 
             if (option == "1")
@@ -32,6 +32,7 @@ namespace Interface
             else
             {
                 Console.WriteLine("Invalid option");
+                Environment.Exit(0);
             }
 
             reader.Read();
